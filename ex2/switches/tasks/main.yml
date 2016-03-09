@@ -1,0 +1,5 @@
+---
+- name: Generate configuration files
+  template: src=switch.j2 dest=/Users/keljamal/ansible/Class5/ex2/{{item.hostname}}.txt
+  with_items: switches
+                       

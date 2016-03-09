@@ -1,0 +1,7 @@
+---
+switches:
+- { hostname: twb-sf-sw1, secret: cisco, access_vlan: 10, ip_addr: 10.11.12.1, default_gateway: 10.11.12.254 , snmp_community: cisco, SNMPv3: True }
+- { hostname: twb-sf-sw2, secret: cisco, access_vlan: 11, ip_addr: 10.11.13.1, default_gateway: 10.11.13.254 , snmp_community: cisco, SNMPv3: False }
+- { hostname: twb-sf-sw3, secret: cisco, access_vlan: 12, ip_addr: 10.11.14.1, default_gateway: 10.11.14.254 , snmp_community: cisco, SNMPv3: False }
+- { hostname: twb-sf-sw4, secret: cisco, access_vlan: 13, ip_addr: 10.11.15.1, default_gateway: 10.11.15.254 , snmp_community: cisco, SNMPv3: False }
+- { hostname: twb-sf-sw5, secret: cisco, access_vlan: 14, ip_addr: 10.11.16.1, default_gateway: 10.11.16.254 , snmp_community: cisco, SNMPv3: True }
